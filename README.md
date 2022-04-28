@@ -33,3 +33,4 @@ grant update on dbo.Users(LockedOutFlag) to USERNAME
 - [ ] If no users are currently locked out, notify user
 - [ ] If a different server is selected from the dropdown, clear out current data and require connection test, then query locked out users before allowing unlock
 - [ ] If the locked out user dropdown is blank, notify user
+- [ ] Have a text file log that loads on application open and populates output textbox. If no log file exists, create it and log output to it with date, time, and actions taken
